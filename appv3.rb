@@ -28,10 +28,10 @@ while my_game.is_still_ongoing?
   puts "Que veux-tu faire ?"
   puts "a - Chercher une arme"
   puts "s - Chercher un pack de soin"
-  puts "1 - Attaquer l'ennemi 1"
-  puts "2 - Attaquer l'ennemi 2"
-  puts "3 - Attaquer l'ennemi 3"
-  puts "4 - Attaquer l'ennemi 4"
+  puts "0 - Attaquer l'ennemi 1"
+  puts "1 - Attaquer l'ennemi 2"
+  puts "2 - Attaquer l'ennemi 3"
+  puts "3 - Attaquer l'ennemi 4"
   print " > "
   choice = gets.chomp
 

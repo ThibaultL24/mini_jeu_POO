@@ -58,7 +58,7 @@ while player.life_points > 0 && (enemy1.life_points > 0 || enemy2.life_points > 
   when "1"
     player.attacks(enemy2)
   else
-    puts "Commande invalide!"
+    puts "Commande invalide! Tu perds ton tour, et Toc!"
   end
 
   enemies.each do |enemy|
