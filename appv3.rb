@@ -28,10 +28,9 @@ while my_game.is_still_ongoing?
   puts "Que veux-tu faire ?"
   puts "a - Chercher une arme"
   puts "s - Chercher un pack de soin"
-  puts "0 - Attaquer l'ennemi 1"
-  puts "1 - Attaquer l'ennemi 2"
-  puts "2 - Attaquer l'ennemi 3"
-  puts "3 - Attaquer l'ennemi 4"
+  my_game.enemies.each_with_index do |enemy, index|
+    puts "#{index} - Attaquer l'ennemi #{index + 1}"
+  end
   print " > "
   choice = gets.chomp
 

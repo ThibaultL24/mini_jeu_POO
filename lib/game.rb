@@ -56,7 +56,7 @@ class Game
       if @human_player.life_points <= 0
         puts "#{human_player.name} a été vaincu ! Les ennemis remportent ce combat !"
       elsif @enemies.empty?
-        puts "les ennemis ont été vaincu ! #{human_player.name} remporte ce combat !"
+        puts "les ennemis ont été vaincus ! #{human_player.name} remporte ce combat !"
       end
     end
   
